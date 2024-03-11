@@ -14,9 +14,9 @@
 
 ## Servidor 2
 
-| Componentes                    | MAQUINA 1                                                 |
-|--------------------------------|-----------------------------------------------------------|
-| Funcionalidad Principal        | Servidor empresarial secundari                            | Servidor de copias de seguridad                               | Servidor aplicaciones y utilidades
+| Componentes                    | Maquina 1                                                 | Maquina 2                                                     | Maquina 3                                 |
+|--------------------------------|-----------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------|
+| Funcionalidad Principal        | Servidor empresarial secundari                            | Servidor de copias de seguridad                               | Servidor aplicaciones y utilidades        |
 | Sistema Operativo              | Windows Server 2022 Standard                              |                                                               |
 | Nucleos                        | 3-Nucleos 3-Hilos                                         |                                                               |
 | Ram                            | 8GB                                                       |                                                               |
