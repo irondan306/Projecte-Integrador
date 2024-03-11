@@ -4,7 +4,7 @@
 
 | Componentes                    | MAQUINA 1| Maquina 2| Maquina 3|
 |--------------------------------|----------|----------|----------|
-| Funcionalidad Principal        | Cell 2   | Cell 3   |          |
+| Funcionalidad Principal        | Servidor empresarial secundari   | Cell 3   |          |
 | Sistema Operativo              | Cell 2   | Cell 3   | Cell 3   |
 | Nucleos                        | Cell 2   | Cell 3   | Cell 3   |
 | Ram                            | Cell 2   | Cell 3   | Cell 3   |
