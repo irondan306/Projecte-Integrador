@@ -7,6 +7,6 @@
 | Funcionalidad Principal        | Cell 2   | Cell 3   |          |
 | Sistema Operativo              | Cell 2   | Cell 3   | Cell 3   |
 | Nucleos                        | Cell 2   | Cell 3   | Cell 3   |
-| Ramq                           | Cell 2   | Cell 3   | Cell 3   |
+| Ram                            | Cell 2   | Cell 3   | Cell 3   |
 | Discos: Particiones, Capacidad | Cell 2   | Cell 3   | Cell 3   |
 | Targetas de red                | Cell 2   | Cell 3   | Cell 3   |
