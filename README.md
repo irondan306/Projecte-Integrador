@@ -10,7 +10,7 @@
 | Discos: Particiones, Capacidad | * Disco: NVME --- Particion 1: Sistema --- Tamaño: 70GB   | * Disco: SSD  --- Particion 3: Raid 1  --- Tamaño: 128GB      |
 |                                | * Disco: SSD  --- Particion 2: Datos   --- Tamaño: 128GB  | * Disco: SSD  --- Particion 3: Raid 1  --- Tamaño: 128GB      |
 |                                |                                                           |                                                               |
-| Targetas de red                | Targeta red 1: --- Targeta de red 2:                       | Targeta red 1: --- Targeta de red 2:                           |
+| Targetas de red                | Targeta red 1 --- Targeta de red 2                        | Targeta red 1 --- Targeta de red 2                             |
 
 ## Servidor 2
 
@@ -23,7 +23,7 @@
 | Discos: Particiones, Capacidad | * Disco: NVME --- Particion 1: Sistema --- Tamaño: 70GB   | * Disco: SSD  --- Particion 3: Raid 1  --- Tamaño: 128GB      |
 |                                | * Disco: SSD  --- Particion 2: Datos   --- Tamaño: 128GB  | * Disco: SSD  --- Particion 3: Raid 1  --- Tamaño: 128GB      |
 |                                |                                                           |                                                               |
-| Targetas de red                | Targeta red 1:                                            | Targeta red 1:                                                | Targeta red 1:
+| Targetas de red                | Targeta red 1                                             | Targeta red 1                                                 | Targeta red 1 
 
 ## Servidor 3
 
@@ -34,5 +34,5 @@
 | Nucleos                        | 3-Nucleos 3-Hilos                |                       |
 | Ram                            | 8GB                              |                       |
 | Discos: Particiones, Capacidad | Cell 2                           |                       |
-| Targetas de red                | Targeta red 1:                   | Targeta red 1:        |
+| Targetas de red                | Targeta red 1                    | Targeta red 1         |
 
