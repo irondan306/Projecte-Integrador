@@ -7,8 +7,8 @@
 | Sistema Operativo              | Windows Server 2022 Standard                              | Windows Server 2022 Standard (NO GUI)                   |
 | Nucleos                        | 3-Nucleos 3-Hilos                                         | 3-Nucleos 3-Hilos                                       |
 | Ram                            | 8GB                                                       | 8GB                                                     |
-| Discos: Particiones, Capacidad | * Disco: NVME --- Particion 1: Sistema --- Tamaño:        | * Disco: SSD  --- Particion 3:   --- Tamaño:            |
-|                                | * Disco: SSD  --- Particion 2:         --- Tamaño:        | * Disco: SSD  --- Particion 3:   --- Tamaño:            |
+| Discos: Particiones, Capacidad | * Disco: NVME **** Particion 1: Sistema **** Tamaño:        | * Disco: SSD  **** Particion 3:   **** Tamaño:            |
+|                                | * Disco: SSD  **** Particion 2:         **** Tamaño:        | * Disco: SSD  **** Particion 3:   **** Tamaño:            |
 |                                |                                                           |                                                         |
 | Targetas de red                | Cell 2                                                    | Cell 3                                                  |
 
