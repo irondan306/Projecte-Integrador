@@ -19,14 +19,14 @@
 
 | Componentes                    | Maquina 1                                                 | Maquina 2                                                     | Maquina 3                                 |
 |--------------------------------|-----------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------|
-| Funcionalidad Principal        | Servidor empresarial secundari                            | Servidor de copias de seguridad                               | Servidor aplicaciones y utilidades        |
-| Sistema Operativo              | Windows Server 2022 Standard                              |                                                               |
-| Nucleos                        | 3-Nucleos 3-Hilos                                         |                                                               |
-| Ram                            | 8GB                                                       |                                                               |
-| Discos: Particiones, Capacidad | * Disco: NVME --- Particion 1: Sistema --- Tamaño: 70GB   | * Disco: SSD  --- Particion 3: Raid 1  --- Tamaño: 128GB      |
-|                                | * Disco: SSD  --- Particion 2: Datos   --- Tamaño: 128GB  | * Disco: SSD  --- Particion 3: Raid 1  --- Tamaño: 128GB      |
-|                                |                                                           |                                                               |
-| Targetas de red                | Targeta red 1                                             | Targeta red 1                                                 | Targeta red 1 
+| Funcionalidad Principal        | Servidor empresarial secundari                            |                                                               | Servidor aplicaciones y utilidades        |
+| Sistema Operativo              | Windows Server 2022 Standard                              |                                                               | Windows Server 2022 Standard              |
+| Nucleos                        | 3-Nucleos 3-Hilos                                         |                                                               |                                           |
+| Ram                            | 8GB                                                       |                                                               |                                           |
+| Discos: Particiones, Capacidad | * Disco: NVME --- Particion 1: Sistema --- Tamaño: 50GB   | * Disco: SSD  --- Particion 2:         --- Tamaño:            |                                           |
+|                                | * Disco: SSD  --- Particion 2:         --- Tamaño:        | * Disco: SSD  --- Particion 2:         --- Tamaño:            |                                           |
+|                                |                                                           |                                                               |                                           |
+| Targetas de red                | Targeta red 1                                             | Targeta red 1                                                 | Targeta red 1                             |
 
 ## Servidor 3
 
