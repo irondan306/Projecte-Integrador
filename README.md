@@ -57,3 +57,12 @@
 | **Observaciones**                  | No lleva disco secundario, ya que por sus funciones no lo requiere. | No lleva disco secundario, ya que por sus funciones no lo requiere. | Aplicaciones para los clientes (LibreOffice, GIMP)            |
 | **Software Adicional**             | IIS, configuración para intranet                            | DFS para gestión de recursos compartidos                     | Servicios de Escritorio Remoto para aplicaciones               |
 | **Prioridad SAI**                  | Baja                                                        | Media                                                       | Media                                                          |
+
+
+- **Mantenimiento y Monitoreo:**
+  - El mantenimiento regular se realiza fuera del horario laboral para minimizar el impacto en los usuarios.
+  - Se utilizan herramientas como Zabbix para monitorear el rendimiento y la disponibilidad de las máquinas.
+
+- **Recuperación ante Desastres:**
+  - Las copias de seguridad se almacenan tanto localmente en el Servidor 1 como en la nube para redundancia.
+  - Se dispone de un protocolo para restaurar rápidamente los servicios a partir de las copias de seguridad más recientes en caso de fallo del hardware.
