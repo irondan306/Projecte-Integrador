@@ -16,9 +16,9 @@
 | **Discos: Particiones, Capacidad** | * Disco: NVMe --- Particion 1: Sistema --- Tamaño: 70GB     | * Disco: NVMe --- Particion 3: Sistema --- Tamaño: 25GB                                          |
 |                                    | * Disco: NVMe --- Particion 2: Datos --- Tamaño: 50GB       | * Raid 5 con tamaño de 256GB y 128GB de seguridad                                                |
 | **Tarjetas de red**                | Tarjeta red 1 --- Tarjeta de red 2                          | Tarjeta de red 1                                                                                 |
-| **Observaciones**                  |                                                             | Almacenamiento de datos, DFS. Copias incrementales L, M, J y V. Diferenciales X y completas el S |
+| **Observaciones**                  |                                                             | Almacenamiento de datos, DFS. Copias incrementales lunes, martes, jueves y viernes. Diferenciales miércoles y completas el sábado |
 | **Software Adicional**             | Active Directory, WDS                                       | Rsync, herramientas de gestión de OpenMediaVault para backups                                    |
-| **Prioridad SAI**                  | Alta                                                        | Media                                                                                            |
+| **Prioridad SAI**                  | Alta                                                        | Alta                                                                                            |
 
 ## DELL 2 = Servidor 2
 ---
