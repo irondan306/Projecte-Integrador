@@ -56,7 +56,7 @@
 | **Discos: Particiones, Capacidad** | * Disco: NVMe --- Particion 1: Sistema --- Tamaño: 50GB     | * Disco: NVMe --- Particion 2: Sistema --- Tamaño: 50GB     | * Disco: NVMe --- Particion 3: Sistema --- Tamaño: 50GB       |
 |                                    |                                                             |                                                             | * Disco: Raid 5 --- Particion 1 --- Tamaño: 128GB             |
 | **Tarjetas de red**                | Tarjeta red 1                                               | Tarjeta red 1 --- Tarjeta de red 2                          | Tarjeta de red 1                                              |
-| **Observaciones**                  | No lleva disco secundario, ya que por sus funciones no lo requiere. | No lleva disco secundario, ya que por sus funciones no lo requiere. | Aplicaciones para los clientes (LibreOffice, GIMP)            |
+| **Observaciones**                  | No lleva disco secundario, ya que por sus funciones no lo requiere. | No lleva disco secundario, ya que por sus funciones no lo requiere. | Aplicaciones para los clientes (LibreOffice, GIMP, etc)            |
 | **Software Adicional**             | IIS, configuración para intranet                            | DFS para gestión de recursos compartidos                     | Servicios de Escritorio Remoto para aplicaciones               |
 | **Prioridad SAI**                  | Baja                                                        | Media                                                       | Media                                                          |
 
