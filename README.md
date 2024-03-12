@@ -4,7 +4,8 @@
 
     Sistema operativo: Lubuntu 22.04
     Disco: NVMe 100GB
-           RAID 5 con tamaño de 256GB (128GB copia de seguridad)
+    El SAI lo tendremos disponible para este ordenador, ya que soportorá
+    los servidores con la más alta prioridad.
 
 | Componentes                    | Maquina 1                                                  | Maquina 2                                               |
 |--------------------------------|------------------------------------------------------------|---------------------------------------------------------|
@@ -12,10 +13,11 @@
 | Sistema Operativo              | Windows Server 2022 Standard                               | Open media vault 7.0-32                                 |
 | Nucleos                        | 3-Nucleos 3-Hilos                                          | 2-Nucleos 2-Hilos                                       |
 | Ram                            | 8GB                                                        | 2GB                                                     |
-| Discos: Particiones, Capacidad | * Disco: NVME  --- Particion 1: Sistema  --- Tamaño: 70GB  | * Disco: NVME --- Particion 2: Sistema --- Tamaño: 25GB |
-|                                | * Disco: Raid 5 --- Particion 1          --- Tamaño: 128GB | * Raid 5 con tamaño de 256GB y 128GB de seguridad       |
-| Targetas de red                | Targeta red 1 --- Targeta de red 2                         | Targeta de red 1                                        |
-| Observaciones                  |                                                            |                                                         |
+| Discos: Particiones, Capacidad | * Disco: NVME  --- Particion 1: Sistema  --- Tamaño: 70GB  | * Disco: NVME --- Particion 3: Sistema --- Tamaño: 25GB |
+|                                | * Disco: NVME  --- Particion 2: Datos  --- Tamaño: 50GB    | * Raid 5 con tamaño de 256GB y 128GB de seguridad       |
+| Tarjetas de red                | Tarjeta red 1 --- Tarjeta de red 2                         | Tarjeta de red 1                                        |
+|                                |                                                            |                                                         |
+| Observaciones:                 |                                                            |                                                         |
 
 
 
@@ -32,16 +34,18 @@
 | Nucleos                        | 3-Nucleos 3-Hilos                                          | 3-Nucleos 3-Hilos                                             |
 | Ram                            | 8GB                                                        | 6GB                                                           |
 | Discos: Particiones, Capacidad | * Disco: NVME --- Particion 1: Sistema --- Tamaño: 50GB    | * Disco: NVME --- Particion 2: Sistema --- Tamaño: 50GB       |
-|                                | * Disco: Raid 5 --- Particion 1          --- Tamaño: 128GB | * Disco: Raid 5 --- Particion 2 --- Tamaño: 128GB             |
-| Targetas de red                | Targeta red 1                                              | Targeta red 1                                                 |
-| Observaciones                  |                                                            |                                                               |   
+|                                | * Disco: Raid 5 --- Particion 1 --- Tamaño: 128GB          | * Disco: Raid 5 --- Particion 2 --- Tamaño: 128GB             |
+| Tarjetas de red                | Tarjeta red 1                                              | Tarjeta red 1                                                 |
+|                                |                                                            |                                                               |
+| Observaciones:                 |                                                            |                                                               |   
 
 
 ## DELL 3 = Servidor 3
   
     Sistema operativo: Lubuntu 22.04
     Disco: NVMe 100GB
-
+    RAID 5 con tamaño de 256GB (128GB copia de seguridad)
+     
 | Componentes                    | Maquina 1                                                  | Maquina 2                                                     | Maquina 3                                               |
 |--------------------------------|------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------|
 | Funcionalidad Principal        | Servidor web intranet                                      | Servidor de datos                                             | Servidors de aplicaciones i utilidades                  |
@@ -49,9 +53,10 @@
 | Nucleos                        | 2-Nucleos 2-Hilos                                          | 2-Nucleos 2-Hilos                                             | 3-Nucleos 3-Hilos                                       |
 | Ram                            | 6GB                                                        | 6GB                                                           | 6GB                                                     |
 | Discos: Particiones, Capacidad | * Disco: NVME --- Particion 1: Sistema --- Tamaño: 50GB    | * Disco: NVME --- Particion 2: Sistema --- Tamaño: 50GB       | * Disco: NVME --- Particion 2: Sistema --- Tamaño: 70GB |
-|                                |                                                            |                                                               | * Disco: Raid 5 --- Particion 2 --- Tamaño: 128GB        |
-| Targetas de red                | Targeta red 1                                              | Targeta red 1 --- Targeta de red 2                            | Targeta de red 1                                        |
-| Observaciones                  |                                                            |                                                               |                                                         
+|                                |                                                            |                                                               | * Disco: Raid 5 --- Particion 2 --- Tamaño: 128GB       |
+| Tarjetas de red                | Tarjeta red 1                                              | Tarjeta red 1 --- Targeta de red 2                            | Tarjeta de red 1                                        |
+|                                |                                                            |                                                               |                                                         |
+| Observaciones:                 |                                                            |                                                               |                                                         
 
 
 
