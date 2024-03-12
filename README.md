@@ -5,7 +5,7 @@
 
 - **Sistema operativo:** Lubuntu 22.04
 - **Disco:** NVMe con tamaño de 100GB
-- **SAI:** Disponible para este ordenador, con la más alta prioridad.
+
 
 | **Componentes**                    | **Maquina 1**                                               | **Maquina 2**                                                                                    |
 |------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
@@ -19,6 +19,7 @@
 | **Observaciones**                  |                                                             | Almacenamiento de datos, DFS. Copias incrementales lunes, martes, jueves y viernes. Diferenciales miércoles y completas el sábado |
 | **Software Adicional**             | Active Directory, WDS                                       | Rsync, herramientas de gestión de OpenMediaVault para backups                                    |
 | **Prioridad SAI**                  | Alta                                                        | Alta                                                                                            |
+
 
 ## DELL 2 = Servidor 2
 ---
@@ -38,6 +39,7 @@
 | **Observaciones**                  | Hará de soporte del dominio principal.                      | Zabbix para monitorizar infraestructura (equipos y dispositivos de la red)|
 | **Software Adicional**             | Herramientas de administración sin GUI                      | Zabbix, agentes SNMP, SSH para monitorización                             |
 | **Prioridad SAI**                  | Media                                                       | Baja                                                                      |
+
 
 ## DELL 3 = Servidor 3
 ---
