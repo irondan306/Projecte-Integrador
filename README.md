@@ -66,3 +66,8 @@
 - **Recuperación ante Desastres:**
   - Las copias de seguridad se almacenan tanto localmente en el Servidor 1 como en la nube para redundancia.
   - Se dispone de un protocolo para restaurar rápidamente los servicios a partir de las copias de seguridad más recientes en caso de fallo del hardware.
+ 
+- **Políticas de Seguridad:**
+  - Las actualizaciones de seguridad se aplican mensualmente.
+  - Se implementan políticas de contraseñas fuertes.
+
