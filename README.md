@@ -35,7 +35,7 @@
 |                                | * Disco: Raid 5 --- Particion 1 --- Tamaño: 128GB          | * Disco: Raid 5 --- Particion 2 --- Tamaño: 128GB                          |
 | Tarjetas de red                | Tarjeta red 1                                              | Tarjeta red 1                                                              |
 |                                |                                                            |                                                                            |
-| Observaciones:                 | Hará de soporte de dominio.                                | Zabbix para monitorizar infraestructura (equipos y dispositivos de la red) |   
+| Observaciones:                 | Hará de soporte del dominio principal.                     | Zabbix para monitorizar infraestructura (equipos y dispositivos de la red) |   
 
 
 ## DELL 3 = Servidor 3
