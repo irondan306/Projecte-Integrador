@@ -12,8 +12,8 @@
 | Sistema Operativo              | Windows Server 2022 Standard                               | Open media vault 7.0-32                                 |
 | Nucleos                        | 3-Nucleos 3-Hilos                                          | 2-Nucleos 2-Hilos                                       |
 | Ram                            | 8GB                                                        | 2GB                                                     |
-| Discos: Particiones, Capacidad | * Disco: NVME  --- Particion 1: Sistema  --- Tamaño: 70GB  | * Disco: NVME --- Particion 3: Sistema --- Tamaño: 25GB |
-|                                | * Disco: NVME  --- Particion 2: Datos  --- Tamaño: 50GB    | * Raid 5 con tamaño de 256GB y 128GB de seguridad       |
+| Discos: Particiones, Capacidad | - Disco: NVME  --- Particion 1: Sistema  --- Tamaño: 70GB  | - Disco: NVME --- Particion 3: Sistema --- Tamaño: 25GB |
+|                                | - Disco: NVME  --- Particion 2: Datos  --- Tamaño: 50GB    | - Raid 5 con tamaño de 256GB y 128GB de seguridad       |
 | Tarjetas de red                | Tarjeta red 1 --- Tarjeta de red 2                         | Tarjeta de red 1                                        |
 |                                |                                                            |                                                         |
 | Observaciones:                 |                                                            |                                                         |
