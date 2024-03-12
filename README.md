@@ -3,9 +3,8 @@
 ## DELL 1 = Servidor 1
 
    - Sistema operativo: Lubuntu 22.04
-   - Disco: NVMe 100GB
-   - El SAI lo tendremos disponible para este ordenador, ya que soportorá
-    los servidores con la más alta prioridad.
+   - Disco: NVMe con tamaño de 100GB
+   - El SAI lo tendremos disponible para este ordenador, ya que soportorá los servidores con la más alta prioridad.
 
 | Componentes                    | Maquina 1                                                  | Maquina 2                                               |
 |--------------------------------|------------------------------------------------------------|---------------------------------------------------------|
@@ -24,8 +23,7 @@
 ## DELL 2 = Servidor 2
 
    - Sistema operativo: Lubuntu 22.04
-   - Disco: NVMe 100GB
-            RAID 5 con tamaño de 256GB (128GB copia de seguridad)
+   - Disco: NVMe con tamaño de 100GB y RAID 5 con tamaño de 256GB (128GB copia de seguridad)
 
 | Componentes                    | Maquina 1                                                  | Maquina 2                                                                  |
 |--------------------------------|------------------------------------------------------------|----------------------------------------------------------------------------|
@@ -43,8 +41,7 @@
 ## DELL 3 = Servidor 3
   
    - Sistema operativo: Lubuntu 22.04
-   - Disco: NVMe 100GB
-            RAID 5 con tamaño de 256GB (128GB copia de seguridad)
+   - Disco: NVMe 100GB y RAID 5 con tamaño de 256GB (128GB copia de seguridad)
      
 | Componentes                    | Maquina 1                                                           | Maquina 2                                                           | Maquina 3                                               |
 |--------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------|
