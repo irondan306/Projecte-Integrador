@@ -1,5 +1,5 @@
 # Material disponible
-○ Una cara del rack (l’altra serà per a la seu del costat), dividida en 3 zones:
+1. Una cara del rack (l’altra serà per a la seu del costat), dividida en 3 zones:
 ■ La part inferior (fins el separador) és on estaran els servidors
 **
 ■ La part central (fins el Cisco) fa de rack del CPD
