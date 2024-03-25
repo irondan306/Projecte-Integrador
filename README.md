@@ -3,21 +3,35 @@
 ## DELL 1 = Servidor 1
 ---
 
-- **Sistema operativo:** Lubuntu 22.04
-- **Disco:** NVMe con tamaño de 100GB
+**Sistema operativo:** Lubuntu 22.04
+### Disco: NVME Partición:  256 GB repartido en:
+- / (80 GB)
+- /var (512 MB)
+- /tmp (512 MB)
+- /home (19 GB)
+- /srv1-system (70 GB)
+- /srv1-datos (50 GB)
+- /srv2-system (25 GB)
+### Disco SSD 1:
+- /srv2-datos1
+### Disco SSD 2:
+- /srv2-datos2
+### Disco SSD 3:
+- /srv2-datos3
 
-
-| **Componentes**                    | **Maquina 1**                                               | **Maquina 2**                                                                                    |
+| **Componentes**                    | **Máquina Virtualizada 1**                                               | **Máquina Virtualizada 2**                                                          |
 |------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Funcionalidad Principal**        | Servidor empresarial                                        | Sistemas de copias de seguridad                                                                  |
+| **Funcionalidad Principal**        | Servidor empresarial                                        | Sistemas almacenamiento de datos y copias de seguridad                                           |
 | **Sistema Operativo**              | Windows Server 2022 Standard                                | OpenMediaVault 7.0-32                                                                            |
 | **Nucleos**                        | 3 Nucleos 3 Hilos                                           | 2 Nucleos 2 Hilos                                                                                |
-| **Ram**                            | 8GB                                                         | 2GB                                                                                              |
-| **Discos: Particiones, Capacidad** | * Disco: NVMe --- Particion 1: Sistema --- Tamaño: 70GB     | * Disco: NVMe --- Particion 3: Sistema --- Tamaño: 25GB                                          |
-|                                    | * Disco: NVMe --- Particion 2: Datos --- Tamaño: 50GB       | * Raid 5 con tamaño de 256GB y 128GB de seguridad                                                |
+| **Ram**                            | 8 GB                                                         | 2 GB                                                                                            |
+| **Discos: Particiones, Capacidad** | * Partición: /srv1-system (sistema) Tamaño: 70 GB        | * Partición: /srv2-system (sistema) Tamaño: 25 GB                                                   |
+|                                    | * Partición: /srv1-datos (datos) Tamaño: 50 GB           | * Disco SSD 1: Partición /srv2-datos1 Tamaño 128 GB                                                 |
+|                                    |                                                             | * Disco SSD 2: Partición /srv2-datos2 Tamaño 128 GB                                              |
+|                                    |                                                             | * Disco SSD 3: Partición /srv2-datos3 Tamaño 128 GB                                              |
 | **Tarjetas de red**                | Tarjeta red 1 --- Tarjeta de red 2                          | Tarjeta de red 1                                                                                 |
-| **Observaciones**                  |                                                             | Almacenamiento de datos, DFS. Copias incrementales lunes, martes, jueves y viernes. Diferenciales miércoles y completas el sábado |
-| **Software Adicional**             | Active Directory, WDS                                       | Rsync, herramientas de gestión de OpenMediaVault para backups                                    |
+| **Observaciones**                  |                                                             | Almacenamiento de datos, DFS. Copias incrementales lunes, martes, jueves y viernes. Diferenciales miércoles y completas el sábado. Le facilitamos los 3 discos SSD en crudo a la máquina y con ellos se crea un RAID 5, donde se almacenarán todos los datos |
+| **Software Adicional**             | Active Directory, WDS                                       | Rsync, herramientas de gestión de OpenMediaVault para backups (Actua como cabina de discos)     |
 | **Prioridad SAI**                  | Alta                                                        | Alta                                                                                            |
 
 
@@ -25,41 +39,69 @@
 ---
 
 - **Sistema operativo:** Lubuntu 22.04
-- **Disco:** NVMe con tamaño de 100GB y RAID 5 con tamaño de 256GB (128GB copia de seguridad)
+### Disco: NVME Partición:  256 GB repartido en:
+- / (80 GB)
+- /var (512 MB)
+- /tmp (512 MB)
+- /home (19 GB)
+- /srv1-system (70 GB)
+- /srvMonit-system (50 GB)
+- /sf_dirCompartido (25 GB)
+### Disco: SSD Partición: Se genera LVM de 384 GB (3 discos de 128 GB):
+- /srv1-LVM
 
-| **Componentes**                    | **Maquina 1**                                               | **Maquina 2**                                                             |
+| **Componentes**                    | **Máquina Virtualizada 1**                                               | **Máquina Virtualizada 2**                                   |
 |------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------|
-| **Funcionalidad Principal**        | Servidor empresarial secundario                             | Servidor monitorización                                                   |
-| **Sistema Operativo**              | Windows Server 2022 Standard (NO GUI)                       | Fedora Linux 39                                                           |
-| **Nucleos**                        | 3 Nucleos 3 Hilos                                           | 3 Nucleos 3 Hilos                                                         |
-| **Ram**                            | 8GB                                                         | 6GB                                                                       |
-| **Discos: Particiones, Capacidad** | * Disco: NVMe --- Particion 1: Sistema --- Tamaño: 70GB     | * Disco: NVMe --- Particion 2: Sistema --- Tamaño: 50GB                   |
-|                                    | * Disco: Raid 5 --- Particion 1 --- Tamaño: 128GB           | * Disco: Raid 5 --- Particion 2 --- Tamaño: 128GB                         |
+| **Funcionalidad Principal**        | Servidor web intranet                                       | Servidor monitorización                                                   |
+| **Sistema Operativo**              | Fedora Linux 39                                             | Fedora Linux 39                                                           |
+| **Nucleos**                        | 2 Nucleos 2 Hilos                                           | 3 Nucleos 3 Hilos                                                         |
+| **Ram**                            | 6 GB                                                        | 6 GB                                                                      |
+| **Discos: Particiones, Capacidad** | * Partición: /srvWeb-system (sistema) Tamaño: 50 GB         | * Partición: /srvMonit-system (sistema) Tamaño: 50 GB                     |
+|                                    | * Partición: /sf_dirCompartido (25 GB)                      |  * Partición: /sf_dirCompartido (25 GB)                                   |
 | **Tarjetas de red**                | Tarjeta red 1                                               | Tarjeta red 1                                                             |
-| **Observaciones**                  | Hará de soporte del dominio principal.                      | Zabbix para monitorizar infraestructura (equipos y dispositivos de la red)|
+| **Observaciones**                  | Configuración para intranet                                 | Zabbix para monitorizar infraestructura (equipos y dispositivos de la red)|
 | **Software Adicional**             | Herramientas de administración sin GUI                      | Zabbix, agentes SNMP, SSH para monitorización                             |
-| **Prioridad SAI**                  | Media                                                       | Baja                                                                      |
+| **Prioridad SAI**                  | Baja                                                        | Baja                                                                      |
 
 
 ## DELL 3 = Servidor 3
 ---
 
-- **Sistema operativo:** Lubuntu 22.04
-- **Disco:** NVMe 100GB y RAID 5 con tamaño de 256GB (128GB copia de seguridad)
-
-| **Componentes**                    | **Maquina 1**                                               | **Maquina 2**                                               | **Maquina 3**                                                 |
+**Sistema operativo:** Lubuntu 22.04
+### Disco: NVME Partición:  256 GB repartido en:
+- / (80 GB)
+- /var (512 MB)
+- /tmp (512 MB)
+- /home (19 GB)
+- /srvWeb-system (50 GB)
+- /srvDatos-system (50 GB)
+- /srvApk-system (50 GB)Aplicaciones
+### Disco SSD 1:
+- /srvApk-datos1
+### Disco SSD 2:
+- /srvApk-datos2
+### Disco SSD 3:
+- /srvApk-datos3
+  
+| **Componentes**                    | **Máquina Virtualizada 1**                                  | **Máquina Virtualizada 2**                                  | **Máquina Virtualizada 3**                   |
 |------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------|
-| **Funcionalidad Principal**        | Servidor web intranet                                       | Servidor de datos                                           | Servidor de aplicaciones y utilidades                         |
+| **Funcionalidad Principal**        | Servidor empresarial secundario                             | Servidor de datos                                           | Servidor de aplicaciones y utilidades                         |
 | **Sistema Operativo**              | Windows Server 2022 Standard (NO GUI)                       | Windows Server 2022 Standard                                | Windows Server 2022 Standard                                  |
-| **Nucleos**                        | 2 Nucleos 2 Hilos                                           | 2 Nucleos 2 Hilos                                           | 3 Nucleos 3 Hilos                                             |
-| **Ram**                            | 6GB                                                         | 6GB                                                         | 6GB                                                           |
-| **Discos: Particiones, Capacidad** | * Disco: NVMe --- Particion 1: Sistema --- Tamaño: 50GB     | * Disco: NVMe --- Particion 2: Sistema --- Tamaño: 50GB     | * Disco: NVMe --- Particion 3: Sistema --- Tamaño: 50GB       |
-|                                    |                                                             |                                                             | * Disco: Raid 5 --- Particion 1 --- Tamaño: 128GB             |
+| **Nucleos**                        | 3 Nucleos 3 Hilos                                           | 2 Nucleos 2 Hilos                                           | 3 Nucleos 3 Hilos                                             |
+| **Ram**                            | 8 GB                                                        | 6 GB                                                        | 6 GB                                                          |
+| **Discos: Particiones, Capacidad** | * Partición: /srv1-system (sistema) Tamaño: 70 GB           | * Partición: /srvDatos-system (sistema) Tamaño: 50 GB       | * Partición: /srvApk-system (sistema) Tamaño: 50 GB           |
+|                                    |                                                             |                                                             | * Disco SSD 1: Partición /srv2-datos1 Tamaño 128 GB           |
+|                                    |                                                             |                                                             | * Disco SSD 2: Partición /srv2-datos2 Tamaño 128 GB           |  
+|                                    |                                                             |                                                             | * Disco SSD 3: Partición /srv2-datos3 Tamaño 128 GB           |  
 | **Tarjetas de red**                | Tarjeta red 1                                               | Tarjeta red 1 --- Tarjeta de red 2                          | Tarjeta de red 1                                              |
-| **Observaciones**                  | No lleva disco secundario, ya que por sus funciones no lo requiere. | No lleva disco secundario, ya que por sus funciones no lo requiere. | Aplicaciones para los clientes (LibreOffice, GIMP, etc)            |
-| **Software Adicional**             | IIS, configuración para intranet                            | DFS para gestión de recursos compartidos                     | Servicios de Escritorio Remoto para aplicaciones               |
-| **Prioridad SAI**                  | Baja                                                        | Media                                                       | Media                                                          |
+| **Observaciones**                  | Hará de soporte del dominio principal                       |                                                             | Aplicaciones para los clientes (LibreOffice, GIMP, etc). Le facilitamos los 3 discos SSD en crudo a la máquina y con ellos se crea un RAID 5, donde se almacenarán todas las aplicaciones |
+| **Software Adicional**             | Herramientas de administración sin GUI                      | DFS para gestión de recursos compartidos                    | Servicios de Escritorio Remoto para aplicaciones              |
+| **Prioridad SAI**                  | Media                                                       | Media                                                       | Media                                                         |
 
+### Prioridades del SAI:
+- **Alta =** Último en apagarse. Trata de mantener los servicios el mayor tiempo posible. Cuando queden 5 minutos guarda todas las tareas que se estan realizando, mandará un mensaje a los usuarios, que se van a finalizar las tareas y despúes de todo ello, envia la señal de apgado y gestiona la orden
+- **Media =** Envía un mensaje a los usuarios de que va a apgarse, y guarda todo lo que se este realizando. Despúes de todo ello, envia la señal de apgado y gestiona la orden.
+- **Baja =** Primero en apagarse, debido a las funciones que realiza. Envia una señal de apagado, y gestiona la orden.
 
 - **Mantenimiento y Monitoreo:**
   - El mantenimiento regular se realiza fuera del horario laboral para minimizar el impacto en los usuarios.
@@ -73,3 +115,7 @@
   - Las actualizaciones de seguridad se aplican mensualmente.
   - Se implementan políticas de contraseñas fuertes.
 
+- **Recuperación ante Desastres:**
+  - Las copias de seguridad se almacenan tanto localmente en el Servidor 1 como en la nube para redundancia.
+  - Se dispone de un protocolo para restaurar rápidamente los servicios a partir de las copias de seguridad más recientes en caso de fallo del hardware.
+ 
