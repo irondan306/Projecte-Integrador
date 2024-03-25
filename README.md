@@ -1,6 +1,6 @@
 # Configuración de Servidores
 
-## DELL 1 = Servidor 1
+## PC DELL 1 = Servidor 1
 ---
 
 **Sistema operativo:** Lubuntu 22.04
@@ -35,7 +35,7 @@
 | **Prioridad SAI**                  | Alta                                                        | Alta                                                                                            |
 
 
-## DELL 2 = Servidor 2
+## PC DELL 2 = Servidor 2
 ---
 
 - **Sistema operativo:** Lubuntu 22.04
@@ -64,7 +64,7 @@
 | **Prioridad SAI**                  | Baja                                                        | Baja                                                                      |
 
 
-## DELL 3 = Servidor 3
+## PC DELL 3 = Servidor 3
 ---
 
 **Sistema operativo:** Lubuntu 22.04
