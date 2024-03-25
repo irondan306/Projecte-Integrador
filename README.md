@@ -12,3 +12,6 @@
 8. 3 PC Dell que faran de servidors de la seu
 9. 5 PC per a fer de clients de la xarxa
 10. 5 monitors, 5 teclats i 5 ratolins
+11. 1 SAI
+12. Adaptadors (heu de indicar quants en l’inventari)
+13. Cables de xarxa i latiguillos
