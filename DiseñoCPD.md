@@ -16,7 +16,7 @@
 ## Parte central del rack
 
 - 1 Mikrotik que sirve como servidor de comunicaciones con el exterior
-- 1 switch Cisco 1U configurable que es el switch troncal de la sede
+- 1 switch Cisco IU configurable que es el switch troncal de la sede
 - Cables de red y latiguillos
 
 #### Observaciones
@@ -31,7 +31,7 @@
 
 #### Observaciones
 
-- El switch TP-Link 1U configurable está conectado al switch Cisco troncal y al punto de acceso inalámbrico.
+- El switch TP-Link IU configurable está conectado al switch Cisco troncal y al punto de acceso inalámbrico.
 
 ## Fuera del rack
 
@@ -44,7 +44,7 @@
 
 #### Observaciones
 
-- El switch 1U no configurable está conectado al switch troncal y a los 5 PC.
+- El switch IU no configurable está conectado al switch troncal y a los 5 PC.
 - Los 5 PC tendrán sus propias VLANs por departamento.
 
 ### Sobrantes
