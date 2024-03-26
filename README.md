@@ -27,5 +27,5 @@
 5. Cables de xarxa i latiguillos
 6. 1 switch 1U no configurable
 
-## Sobrantes
+### Sobrantes
 1. 1 switch 1U no configurable
