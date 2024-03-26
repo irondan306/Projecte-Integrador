@@ -26,3 +26,6 @@
 4. 1 punt d’accés inalàmbric
 5. Cables de xarxa i latiguillos
 6. 1 switch 1U no configurable
+
+## Sobrantes
+1. 1 switch 1U no configurable
