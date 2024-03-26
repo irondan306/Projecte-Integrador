@@ -1,50 +1,53 @@
 # Pràctica 3.2. Disseny del CPD i organització de la seu
 
-## Part inferior del rack
+## Parte inferior del rack
 
-- 3 PC Dell que faran de servidors de la seu
+- 3 PC Dell que funcionarán como servidores de la sede
 - 1 switch 1U no configurable
-- Cables de xarxa i latiguillos
-- 7 Adaptadors de xarxa per a les màquines virtuals
-- 1 switch TP-Link configurable de 8 ports no enrackable
+- Cables de red y latiguillos
+- 7 Adaptadores de red para las máquinas virtuales
+- 1 switch TP-Link configurable de 8 puertos no enrackable
 
-#### Observacions
+#### Observaciones
 
-- El switch 1U no configurable va connectat al switch cisco troncal i als 3 PC Dell, a través dels adaptadors
-- El switch TP-Link configurable de 8 ports no enrackable va connectat al mikrotik per un costat i, per altre costat, a la DMZ
+- El switch 1U no configurable está conectado al switch Cisco troncal y a los 3 PC Dell, a través de los adaptadores.
+- El switch TP-Link configurable de 8 puertos no enrackable está conectado al Mikrotik por un lado y, por otro lado, a la DMZ.
 
-## Part central del rack
+## Parte central del rack
 
-- 1 Mikrotik que fa de servidor de comunicacions amb l’exterior
-- 1 switch Cisco 1U configurable que és el switch trocal de la seu
-- Cables de xarxa i latiguillos
+- 1 Mikrotik que sirve como servidor de comunicaciones con el exterior
+- 1 switch Cisco 1U configurable que es el switch troncal de la sede
+- Cables de red y latiguillos
 
-#### Observacions
+#### Observaciones
 
-- El Mikrotik estè connectat a l'internet i al switch cisco troncal ( també va connectat al switch de la DMZ, com hem especificat dalt )
+- El Mikrotik está conectado a internet y al switch Cisco troncal (también está conectado al switch de la DMZ, como hemos especificado arriba).
 
-## Part superior del rack
-- 1 switch TP-Link 1U configurable que és el switch troncal de la 1a planta
-- 1 punt d’accés inalàmbric
-- Cables de xarxa i latiguillos
+## Parte superior del rack
 
-#### Observacions
+- 1 switch TP-Link 1U configurable que es el switch troncal de la 1a planta
+- 1 punto de acceso inalámbrico
+- Cables de red y latiguillos
 
-- El switch TP-Link 1U configurable va conectat al switch cisco troncal i al punt d'acces inalambric
+#### Observaciones
 
-## Fora del rack
-- 5 PC per a fer de clients de la xarxa
-- 5 monitors, 5 teclats i 5 ratolins
+- El switch TP-Link 1U configurable está conectado al switch Cisco troncal y al punto de acceso inalámbrico.
+
+## Fuera del rack
+
+- 5 PC para funcionar como clientes de la red
+- 5 monitores, 5 teclados y 5 ratones
 - 1 SAI
-- 1 punt d’accés inalàmbric
-- Cables de xarxa i latiguillos
+- 1 punto de acceso inalámbrico
+- Cables de red y latiguillos
 - 1 switch 1U no configurable
 
-#### Observacions
+#### Observaciones
 
-- El switch 1U no configurable va conectat al switch troncal i als 5 PC
-- Els 5 PC tindran les seues propies VLANS per departament
+- El switch 1U no configurable está conectado al switch troncal y a los 5 PC.
+- Los 5 PC tendrán sus propias VLANs por departamento.
 
-### Sobrants
+### Sobrantes
 - 1 switch 1U no configurable
+
 `
