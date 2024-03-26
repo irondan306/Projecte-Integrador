@@ -2,11 +2,11 @@
 
 ## Part inferior del rack
 
-1. 3 PC Dell que faran de servidors de la seu
-2. 1 switch 1U no configurable
-3. Cables de xarxa i latiguillos
-4. 7 Adaptadors de xarxa per a les màquines virtuals
-5. 1 switch TP-Link configurable de 8 ports no enrackable
+- 1. 3 PC Dell que faran de servidors de la seu
+- 2. 1 switch 1U no configurable
+- 3. Cables de xarxa i latiguillos
+- 4. 7 Adaptadors de xarxa per a les màquines virtuals
+- 5. 1 switch TP-Link configurable de 8 ports no enrackable
 
 #### Observacions
 
