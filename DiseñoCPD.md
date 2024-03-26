@@ -3,20 +3,20 @@
 ## Parte inferior del rack
 
 - 3 PC Dell que funcionarán como servidores de la sede
-- 1 switch IU no configurable
+- 1 switch 1U no configurable
 - Cables de red y latiguillos
 - 7 Adaptadores de red para las máquinas virtuales
 - 1 switch TP-Link configurable de 8 puertos no enrackable
 
 #### Observaciones
 
-- El switch IU no configurable está conectado al switch Cisco troncal y a los 3 PC Dell, a través de los adaptadores.
+- El switch 1U no configurable está conectado al switch Cisco troncal y a los 3 PC Dell, a través de los adaptadores.
 - El switch TP-Link configurable de 8 puertos no enrackable está conectado al Mikrotik por un lado y, por otro lado, a la DMZ.
 
 ## Parte central del rack
 
 - 1 Mikrotik que sirve como servidor de comunicaciones con el exterior
-- 1 switch Cisco IU configurable que es el switch troncal de la sede
+- 1 switch Cisco 1U configurable que es el switch troncal de la sede
 - Cables de red y latiguillos
 
 #### Observaciones
@@ -25,13 +25,13 @@
 
 ## Parte superior del rack
 
-- 1 switch TP-Link IU configurable que es el switch troncal de la 1a planta
+- 1 switch TP-Link 1U configurable que es el switch troncal de la 1a planta
 - 1 punto de acceso inalámbrico
 - Cables de red y latiguillos
 
 #### Observaciones
 
-- El switch TP-Link IU configurable está conectado al switch Cisco troncal y al punto de acceso inalámbrico.
+- El switch TP-Link 1U configurable está conectado al switch Cisco troncal y al punto de acceso inalámbrico.
 
 ## Fuera del rack
 
@@ -40,13 +40,13 @@
 - 1 SAI
 - 1 punto de acceso inalámbrico
 - Cables de red y latiguillos
-- 1 switch IU no configurable
+- 1 switch 1U no configurable
 
 #### Observaciones
 
-- El switch IU no configurable está conectado al switch troncal y a los 5 PC.
+- El switch 1U no configurable está conectado al switch troncal y a los 5 PC.
 - Los 5 PC tendrán sus propias VLANs por departamento.
 
 ### Sobrantes
-- 1 switch IU no configurable
+- 1 switch 1U no configurable
 
