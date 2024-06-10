@@ -77,5 +77,13 @@
 - Instalación en el servidor Dell 2 de Zabbix, para la monitorización de nuestra red (incluyendo los distintos dispositivos que la componen).
 
 ## Día 28/05
-- Terminar de configurar Zabbix (adherir los distintos dispositivos de la red para su monitorización).
+- Inicio configuración Zabbix (adherir los distintos dispositivos de la red para su monitorización).
 - Creación del script para la creación de los usuarios y grupos del DC.
+
+## Día 03/06
+- Seguimos con la configuración Zabbix (adherir los distintos dispositivos de la red para su monitorización).
+- Seguimos con la creación del script para la creación de los usuarios y grupos del DC.
+
+## Día 10/06
+- Finalizar la configuración del servidor de aplicaciones y utilidades, virtualizado en el Dell 3, y comprobación de su correcto funcionamiento
+- Continuación creación de la web
