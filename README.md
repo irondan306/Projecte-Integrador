@@ -84,7 +84,7 @@
 
 ## Día 03/06
 - Seguimos con la configuración Zabbix (adherir los distintos dispositivos de la red para su monitorización, algunos problemas con algunos equipos).
-- Seguimos con el script para la creación de los usuarios y grupos del DC, problemas con el código ya que no funciona correctamente, nos da fallo en algunas líneas y ejecuta correctamente lo que queremos.
+- Seguimos con el script para la creación de los usuarios y grupos del DC, problemas con el código ya que no funciona correctamente, nos da fallo en algunas líneas y no termina de ejecutar correctamente lo que queremos.
 
 ## Día 08/06
 - Instalación del servidor de la intranet y configuración.
