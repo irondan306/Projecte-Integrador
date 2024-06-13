@@ -68,7 +68,7 @@
 
 ## Día 24/05
 - Reinstalación del servidor 3 en Dell 3 debido a problemas con la ejecución de VirtualBox (máquinas virtuales con los servidores ya creadas).
-- Servidor 1: Añadir directivas.
+- Servidor 1: Creación de las directivas.
 - Acabar de organizar y conectar los cables definitivos que van del patch panel superior a los equipos cliente que se encuentran en la planta 1 y planta 0.
 
 ## Día 27/05
@@ -81,9 +81,23 @@
 - Creación del script para la creación de los usuarios y grupos del DC.
 
 ## Día 03/06
-- Seguimos con la configuración Zabbix (adherir los distintos dispositivos de la red para su monitorización).
-- Seguimos con la creación del script para la creación de los usuarios y grupos del DC.
+- Seguimos con la configuración Zabbix (adherir los distintos dispositivos de la red para su monitorización, algunos problemas con algunos equipos).
+- Seguimos con el script para la creación de los usuarios y grupos del DC, problemas con el código ya que no funciona correctamente, nos da fallo en algunas líneas y ejecuta correctamente lo que queremos.
+
+## Día 08/06
+- Instalación del servidor de la intranet y configuración.
+- Instalación del servidor de aplicaciones y utilidades.
+- Revisión WSUS
 
 ## Día 10/06
 - Finalizar la configuración del servidor de aplicaciones y utilidades, virtualizado en el Dell 3, y comprobación de su correcto funcionamiento
-- Continuación creación de la web
+- Continuación creación de la web.
+- Se termina el script, comprobamos su correcto funcinamiento. Revisamos las carpetas personales, moviles y obligatorias
+
+## Día 11/06
+
+
+## Día 13/06
+- Corrección de configuraciones erroneas en los permisos de las carpetas de los perfiles de usuarios.
+- Creación de la carpeta DOCUMENTACIÓ y subcarpetas necesarias para los departamentos. Modificar permisos de las subcarpetas, en función a los diferentes departamentos que van a tener acceso, según lo solicitado en el enunciado.
+- Instalación WAC
