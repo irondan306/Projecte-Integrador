@@ -105,3 +105,4 @@
 - Corrección de configuraciones erróneas en los permisos de las carpetas de los perfiles de usuarios.
 - Creación de la carpeta DOCUMENTACIÓ y subcarpetas necesarias para los departamentos. Modificar permisos de las subcarpetas, en función a los diferentes departamentos que van a tener acceso, según lo solicitado en el enunciado.
 - Instalación WAC
+- Seguimos con la tarea de la página web, que ya esta casi a punto, falta de acabar unicamente un apartado.
