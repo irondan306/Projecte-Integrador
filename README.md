@@ -59,7 +59,7 @@
 - Configuración de TP-Link y VLANs restantes de la red.
 
 ## Día 20/05
-- Creación / Instalacion del servidor de datos.
+- Creación / Instalación del servidor de datos.
 - Creación del DFS
 - Instalación y configuración de la máquina del servidor secundario.
 
@@ -94,7 +94,7 @@
 ## Día 10/06
 - Finalizar la configuración del servidor de aplicaciones y utilidades, virtualizado en el Dell 3, y comprobación de su correcto funcionamiento
 - Continuación creación de la web.
-- Se termina el script, comprobamos su correcto funcinamiento. Creación carpetas personales, moviles y obligatorias
+- Se termina el script, comprobamos su correcto funcionamiento. Creación carpetas personales, móviles y obligatorias
 
 ## Día 11/06
 - Crear y establecer reglas DMZ.
@@ -102,6 +102,6 @@
 - Se sigue con las tareas no finalizadas (página web)
 
 ## Día 13/06
-- Corrección de configuraciones erroneas en los permisos de las carpetas de los perfiles de usuarios.
+- Corrección de configuraciones erróneas en los permisos de las carpetas de los perfiles de usuarios.
 - Creación de la carpeta DOCUMENTACIÓ y subcarpetas necesarias para los departamentos. Modificar permisos de las subcarpetas, en función a los diferentes departamentos que van a tener acceso, según lo solicitado en el enunciado.
 - Instalación WAC
