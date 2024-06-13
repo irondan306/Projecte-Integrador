@@ -59,7 +59,9 @@
 - Configuración de TP-Link y VLANs restantes de la red.
 
 ## Día 20/05
-- Configuración de ...
+- Creación / Instalacion del servidor de datos.
+- Creación del DFS
+- Instalación y configuración de la máquina del servidor secundario.
 
 ## Día 21/05
 - Reinstalación del servidor 1 en Dell 1 debido a problemas con la ejecución de VirtualBox (máquinas virtuales con los servidores ya creadas).
@@ -92,10 +94,12 @@
 ## Día 10/06
 - Finalizar la configuración del servidor de aplicaciones y utilidades, virtualizado en el Dell 3, y comprobación de su correcto funcionamiento
 - Continuación creación de la web.
-- Se termina el script, comprobamos su correcto funcinamiento. Revisamos las carpetas personales, moviles y obligatorias
+- Se termina el script, comprobamos su correcto funcinamiento. Creación carpetas personales, moviles y obligatorias
 
 ## Día 11/06
-
+- Crear y establecer reglas DMZ.
+- Configurar replica DFS
+- Se sigue con las tareas no finalizadas (página web)
 
 ## Día 13/06
 - Corrección de configuraciones erroneas en los permisos de las carpetas de los perfiles de usuarios.
