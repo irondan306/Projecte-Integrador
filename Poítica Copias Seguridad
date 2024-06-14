@@ -1,0 +1,32 @@
+# Política de Copias de Seguridad
+
+## 1. Objetivo
+
+Garantizar la protección de los datos de los usuarios mediante copias de seguridad regulares y seguras.
+
+## 2.1 Frecuencia de Copias de Seguridad de los datos
+
+- **Copias Incrementales Diarias:** Todos los días a las 21:00 horas.
+- **Copia Completa Mensual:** Último domingo del mes a las 21:00 horas. Se guardan las copias completas de los últimos 3 meses.
+- **Copia en la Nube:** Cada 3 meses.
+
+## 2.2 Frecuencia de Copias de Seguridad de los servidores
+
+- **Copias Incrementales Diarias:** Todos los días a las 21:00 horas.
+- **Copia Completa Mensual:** Último domingo del mes a las 21:00 horas. Se guardan las copias completas de los últimos 3 meses.
+- **Copia Completa Trimestral de Servidores:** Cada tres meses. Se guardan las 2 últimas copias.
+- **Copia en la Nube:** Cada 6 meses.
+
+## 3. Almacenamiento de Copias de Seguridad
+
+- **Servidor Local de Datos:** Discos en red SAN.
+- **Servidor Empresarial:** Mediante DFS.
+- **Servidor en la Nube:** Plataforma de almacenamiento en la nube.
+
+## 4. Seguridad de las Copias
+
+- **Cifrado:** Todas las copias están cifradas con clave pública y privada.
+
+## 5. Procedimiento de Restauración
+
+- Restaurar desde la última copia incremental o completa según la necesidad.
